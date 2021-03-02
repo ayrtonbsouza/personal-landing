@@ -24,7 +24,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Profissional</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -88,28 +88,25 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Acadêmico</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Universidade Anhembi Morumbi</h3>
+              <div className="subheading mb-3">Engenharia de Computação</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">2020 - 2024</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Fatec</h3>
+              <div className="subheading mb-3">Análise e Desenvolvimento de Sistemas</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">2015 - 2017</span>
             </div>
           </div>
         </div>
@@ -122,23 +119,14 @@ const IndexPage = () => (
         id="skills"
       >
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
+          <h2 className="mb-5">Habilidades</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Principais Linguagens de Programação e Ferramentas
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fab fa-html5" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular" />
+              <i className="fab fa-js" />
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react" />
@@ -147,42 +135,7 @@ const IndexPage = () => (
               <i className="fab fa-node-js" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt" />
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-npm" />
-            </li>
-          </ul>
-
-          <div className="subheading mb-3">Workflow</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check" />
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <i className="fa-li fa fa-check" />
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
-              <i className="fa-li fa fa-check" />
-              Cross Functional Teams
-            </li>
-            <li>
-              <i className="fa-li fa fa-check" />
-              Agile Development &amp; Scrum
             </li>
           </ul>
         </div>
@@ -195,75 +148,20 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5">Interesses</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            Além de amar o que tenho como profissão, gosto de usar meu tempo
+            descobrindo novas músicas, jogando video-game ou estudando astrofísica.
+            Se me derem brecha, passo horas falando sobre o universo e tudo o que
+            nos cerca, sou completamente fascinado pelo espaço e acredito que, de
+            alguma forma, em minha posição, eventualmente eu possa contribuir com
+            a ciência para responder grandes questões do universo com o uso da
+            tecnologia.
           </p>
         </div>
       </section>
 
       <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              2
-              <sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              1
-              <sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <i className="fa-li fa fa-trophy text-warning" />
-              3
-              <sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
-        </div>
-      </section>
     </div>
   </Layout>
 );

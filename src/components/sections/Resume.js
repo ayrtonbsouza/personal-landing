@@ -34,7 +34,7 @@ const Resume = ({ firstName, lastName, phone, address, email, socialLinks }) => 
           {socialLinks.map(social => {
             const { icon, url } = social;
             return (
-              <a key={url} href={url}>
+              <a key={url} href={url} target="_blank">
                 <i className={`fab ${icon}`}></i>
               </a>
             );
