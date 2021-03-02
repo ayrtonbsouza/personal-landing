@@ -15,6 +15,7 @@ const Resume = ({ firstName, lastName, phone, address, email, socialLinks }) => 
       <div className="w-100">
         <h1 className="mb-0 text-secondary">
           {firstName}
+          {' '}
           <span className="text-primary">{lastName}</span>
         </h1>
         <div className="subheading mb-5">
