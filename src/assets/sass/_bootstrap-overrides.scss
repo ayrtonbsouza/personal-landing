@@ -1,0 +1,22 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-secondary {
+  font-weight: 100;
+}
+
+.text-primary {
+  font-weight: 800;
+  color: $primary !important;
+}
+
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
